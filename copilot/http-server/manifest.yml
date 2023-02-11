@@ -14,9 +14,9 @@ image:
   # Port exposed through your container to route traffic to it.
   port: 3200
 
-# http:
-#   healthcheck:
-#     path: /
+http:
+  healthcheck:
+    path: /api/health
 #     healthy_threshold: 3
 #     unhealthy_threshold: 5
 #     interval: 10s
