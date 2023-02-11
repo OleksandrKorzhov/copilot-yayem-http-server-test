@@ -12,7 +12,7 @@ router.get("/api/health", (req, res) => {
 });
 
 router.get("/api/hello-world", (req, res, next) => {
-  res.send("hello world - 2");
+  res.send("hello world - 3");
 });
 
 router.all("/", (req, res) => {
